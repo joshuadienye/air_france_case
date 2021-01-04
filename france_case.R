@@ -18,9 +18,9 @@ library(scales)
 library(flexdashboard)
 
 # reading the dataset and calling it air_france
-air_france <- read_excel("Documents/HULT/R/Datasets/Air France Case Spreadsheet Supplement.xlsx", 
+air_france <- read_excel("Air France Case Spreadsheet Supplement.xlsx", 
                                                      sheet = "DoubleClick")
-kayak <- read_excel("Documents/HULT/R/Datasets/Air France Case Spreadsheet Supplement.xlsx", 
+kayak <- read_excel("Air France Case Spreadsheet Supplement.xlsx", 
                     sheet = "Kayak")
 
 # checking which columns have missing values
